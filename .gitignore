@@ -4,6 +4,7 @@
 # Next.js build output
 /.next
 /out
+tsconfig.tsbuildinfo
 
 # local environment files
 .env*.local
