@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+
+* { box-sizing: border-box; }
+
+html { min-width: 320px; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #000;
+  background: #f6f8ff;
+  font-family: "Codec Pro", Arial, Helvetica, sans-serif;
+}
+
+::selection { background: #dce8ff; color: #0d3e97; }
+
+@layer components {
+  .page-shell {
+    @apply relative isolate min-h-screen overflow-hidden bg-[#f8fbff] px-4 py-7 sm:px-6 sm:py-10;
+  }
+  .ambient-orb {
+    @apply pointer-events-none absolute rounded-full blur-3xl;
+  }
+  .content-wrap { @apply relative mx-auto w-full max-w-[540px]; }
+  .font-poppins { font-family: "Poppins", Arial, Helvetica, sans-serif; }
+  .font-outfit { font-family: "Outfit", Arial, Helvetica, sans-serif; }
+  .form-label { @apply mb-2 block text-left text-sm font-bold text-black; }
+  .form-input {
+    @apply w-full rounded-2xl border border-[#d9e4fa] bg-white px-4 py-3.5 text-base text-black outline-none transition placeholder:text-[#6e6e6e] focus:border-[#174dab] focus:ring-4 focus:ring-[#174dab]/10;
+  }
+}
