@@ -3,7 +3,7 @@ export const workshop = {
   date: "26th June",
   time: "8 PM",
   duration: "90 minutes",
-  vimeoVideoUrl: "https://player.vimeo.com/video/000000000",
+  vimeoVideoUrl: "https://player.vimeo.com/video/1203762169",
   whatsappGroupLink: "https://chat.whatsapp.com/EOaYpP4MZsSDOwyTfZxhF4",
 };
 

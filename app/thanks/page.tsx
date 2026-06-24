@@ -1,6 +1,6 @@
-import { CtaButton } from "@/components/CtaButton";
 import { DateTimeBadge } from "@/components/DateTimeBadge";
 import { LogoHeader } from "@/components/LogoHeader";
+import { VimeoPlayer } from "@/components/VimeoPlayer";
 import { workshop } from "@/lib/workshop";
 
 export default function ThanksPage() {
@@ -14,9 +14,7 @@ export default function ThanksPage() {
         <div className="mt-6"><DateTimeBadge compact /></div>
         <p className="font-outfit mx-auto mt-6 max-w-md text-base leading-7 text-black/70">Before the workshop, please watch this short video so you know what to do next.</p>
         <div className="mt-7 rounded-3xl border border-white/90 bg-white/90 p-4 shadow-premium backdrop-blur sm:p-5">
-          <div className="aspect-video overflow-hidden rounded-2xl bg-[#10245b]">
-            <iframe src={workshop.vimeoVideoUrl} title="Workshop introduction video" className="h-full w-full" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
-          </div>
+          <VimeoPlayer videoUrl={workshop.vimeoVideoUrl} />
         </div>
         <div className="mt-7 rounded-3xl border border-[#dbe5fa] bg-white/75 p-5 shadow-sm backdrop-blur sm:p-7">
           <p className="font-outfit mb-3 inline-flex items-center gap-2 rounded-full bg-[#fff1f2] px-3 py-1.5 text-sm font-extrabold text-[#c61f29]"><span aria-hidden="true">⚠️</span> Must join group</p>
