@@ -1,6 +1,6 @@
 export const workshop = {
   logoPath: "/sen-logo.png",
-  date: "July 1st",
+  date: "5th July",
   time: "8 PM",
   duration: "90 minutes",
   vimeoVideoUrl: "https://player.vimeo.com/video/1203762169",
