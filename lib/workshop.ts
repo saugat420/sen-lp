@@ -4,15 +4,15 @@ export const workshop = {
   time: "8 PM",
   duration: "90 minutes",
   vimeoVideoUrl: "https://player.vimeo.com/video/1203762169",
-  whatsappGroupLink: "https://chat.whatsapp.com/KRWm1KMufPLH93ScjyVsrq",
+  whatsappGroupLink: "https://chat.whatsapp.com/KE8mGEGWSREI4sSN9NvWF6",
 };
 
 export const campaignZoomLinks = {
-  email: "https://us06web.zoom.us/webinar/register/1017821153792/WN_g_XOxeUZTI6aMPkesb6ATA",
-  whatsapp: "https://us06web.zoom.us/webinar/register/6617821153831/WN_g_XOxeUZTI6aMPkesb6ATA",
-  "workshop-workflow": "https://us06web.zoom.us/webinar/register/9317821153932/WN_g_XOxeUZTI6aMPkesb6ATA",
-  instagram: "https://us06web.zoom.us/webinar/register/1717821153971/WN_g_XOxeUZTI6aMPkesb6ATA",
-  facebook: "https://us06web.zoom.us/webinar/register/1717821153872/WN_g_XOxeUZTI6aMPkesb6ATA",
-  "facebook-group": "https://us06web.zoom.us/webinar/register/4817821154081/WN_g_XOxeUZTI6aMPkesb6ATA",
-  tiktok: "https://us06web.zoom.us/webinar/register/3117821154152/WN_g_XOxeUZTI6aMPkesb6ATA",
+  email: "https://us06web.zoom.us/webinar/register/1817821154936/WN_vSC8Y5_TQmqH8neSzMjwqA",
+  whatsapp: "https://us06web.zoom.us/webinar/register/4017821155014/WN_vSC8Y5_TQmqH8neSzMjwqA",
+  "workshop-workflow": "https://us06web.zoom.us/webinar/register/1717821155127/WN_vSC8Y5_TQmqH8neSzMjwqA",
+  instagram: "https://us06web.zoom.us/webinar/register/2717821155058/WN_vSC8Y5_TQmqH8neSzMjwqA",
+  facebook: "https://us06web.zoom.us/webinar/register/3117821154977/WN_vSC8Y5_TQmqH8neSzMjwqA",
+  "facebook-group": "https://us06web.zoom.us/webinar/register/2717821155199/WN_vSC8Y5_TQmqH8neSzMjwqA",
+  tiktok: "https://us06web.zoom.us/webinar/register/8017821155236/WN_vSC8Y5_TQmqH8neSzMjwqA",
 } as const;
