@@ -1,7 +1,7 @@
 import { DateTimeBadge } from "@/components/DateTimeBadge";
 import { LogoHeader } from "@/components/LogoHeader";
 import { VimeoPlayer } from "@/components/VimeoPlayer";
-import { workshop } from "@/lib/workshop";
+import { campaignZoomLinks, workshop } from "@/lib/workshop";
 
 export default function ThanksPage() {
   return (
@@ -15,6 +15,12 @@ export default function ThanksPage() {
         <p className="font-outfit mx-auto mt-6 max-w-md text-lg leading-8 text-black/70">Before the workshop, please watch this short video so you know what to do next.</p>
         <div className="mt-7 rounded-3xl border border-white/90 bg-white/90 p-4 shadow-premium backdrop-blur sm:p-5">
           <VimeoPlayer videoUrl={workshop.vimeoVideoUrl} />
+        </div>
+        <div className="mt-7 rounded-3xl border-2 border-[#1149a6]/25 bg-[#eef4ff] p-6 shadow-[0_18px_40px_-20px_rgba(17,73,166,0.6)] sm:p-8">
+          <p className="font-outfit text-2xl font-extrabold text-[#0e3e8f] sm:text-3xl">Register for the workshop now</p>
+          <a href={campaignZoomLinks.email} target="_blank" rel="noreferrer" className="font-outfit mx-auto mt-5 inline-flex w-full items-center justify-center rounded-2xl bg-[#ef2029] px-8 py-4 text-base font-extrabold text-white shadow-[0_14px_26px_-12px_rgba(239,32,41,0.85)] transition duration-200 hover:-translate-y-0.5 hover:bg-[#d91d26] hover:shadow-[0_18px_30px_-12px_rgba(239,32,41,0.9)] active:translate-y-0 active:scale-[0.99] sm:w-auto">
+            Register Now
+          </a>
         </div>
         <div className="mt-7 rounded-3xl border border-[#dbe5fa] bg-white/75 p-5 shadow-sm backdrop-blur sm:p-7">
           <p className="font-outfit mb-3 inline-flex items-center gap-2 rounded-full bg-[#fff1f2] px-3.5 py-2 text-base font-extrabold text-[#c61f29]"><span aria-hidden="true">⚠️</span> Must join group</p>
